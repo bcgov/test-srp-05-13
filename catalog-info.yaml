@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: whizzbang
+  title: Whizzbang
+  description: Whizzbang
+  annotations:
+    github.com/project-slug: bcgov-public/test-srp-05-13
+    backstage.io/techdocs-ref: dir:.
+    bcgovpubcode.gov.bc.ca/ministry: CITZ
+    developer.gov.bc.ca/source_template: default/transfer-repo
+spec:
+  type: library
+  lifecycle: experimental
+  owner: group:bcgov-public/developer-experience
